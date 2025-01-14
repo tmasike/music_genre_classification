@@ -21,6 +21,9 @@ This project implements a Convolutional Neural Network (CNN)
 - Scikit-learn
 
 ## Dataset
+
+The link to the dataset is [here](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification). 
+
 The model is designed to work with the GTZAN dataset, which includes 10 genres:
 - Blues
 - Classical
@@ -47,4 +50,4 @@ The model uses a CNN architecture with:
 - Dense layers for classification
 
 ## Results
-The model achieves [your accuracy] accuracy on the test set. Detailed evaluation metrics and visualizations are included in the notebook.
+The model didn't do so well because I couldn't resolve the issue of my processor running out of memory and the kernel dying each time I tried to run the model with a respectable batch size. Will try to resolve this issue in the future.
