@@ -9,11 +9,18 @@ __pycache__/
 # Virtual Environment
 venv/
 env/
+waves_env/
 
 # Model files
 *.h5
 *.keras
 *.weights.h5
+
+# Dataset directory
+data/
+genres_original/
+*.wav
+*.mp3
 
 # Data files
 *.wav
