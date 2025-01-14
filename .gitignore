@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+
+# Model files
+*.h5
+*.keras
+*.weights.h5
+
+# Data files
+*.wav
+*.mp3
+*.pkl
+*.json
+
+# OS specific
+.DS_Store
